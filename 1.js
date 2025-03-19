@@ -1,9 +1,10 @@
 const { exec } = require('child_process');
 const crypto = require('crypto');
+require('dotenv').config();
 
 // Your credentials
-const apiKey = 'rbihpytthakdqfvggrerilvlblkdmisk';
-const secret = 'geeatxyfqgraoiwdvhwpocgajfhlletf';
+const apiKey = process.env.API_KEY;
+const secret = process.env.API_SECRET;
 
 // Request body
 const body = {

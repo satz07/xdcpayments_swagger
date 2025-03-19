@@ -3,3 +3,6 @@ node_modules/
 *.log
 swagger.yml 
 .qodo
+.specstory
+.specstory/history/
+logs/
